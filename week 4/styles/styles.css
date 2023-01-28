@@ -1,0 +1,32 @@
+* {
+    background-color: rgb(238, 169, 206);
+    text-align: center;
+}
+.start {
+    color: white;
+}
+h1 {
+    font-size: 3em;
+}
+h1:hover {
+    color: black;
+}
+.msg {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+ div p {
+    text-align: left;
+}
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+.text {
+    color: white;
+    font-size: 0.6em;
+    width: 15%;
+    margin: 0 auto;
+}
