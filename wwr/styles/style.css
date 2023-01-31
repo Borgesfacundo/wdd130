@@ -2,6 +2,10 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+nav {
+    background-color: #FE0B24;
+
+}
 nav a {
     text-align: center;
     color: #0C120C;
@@ -25,6 +29,7 @@ main section {
 }
 #background {
     height: 725px;
+    background-color: #FE0B24;
 }
 body {
     background-color: white;
