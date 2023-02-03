@@ -1,0 +1,17 @@
+* {
+    max-width: 1980px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+.photo {
+    width: 100%;
+}
+ div img {
+    width: 17%;
+    border-radius: 50%;
+    border: 10px solid rgb(49, 46, 46);
+    margin: 2em 6.5em 0 6.5em;
+}
