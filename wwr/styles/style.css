@@ -1,15 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Oswald:wght@300&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+body {
+    background-color: white;
+    font-family: "Baloo 2", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
 nav {
     background-color: #FE0B24;
-
 }
 nav a {
     text-align: center;
     color: #0C120C;
     text-decoration: none;
+    font-family: "Oswald", sans-serif, Arial;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #0C120C;
@@ -27,12 +39,12 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #FE0B24;
-}
-body {
-    background-color: white;
 }
 header{
     background-color: #C7E8F3;
@@ -41,6 +53,11 @@ header{
     background-color: #C7E8F3;
     color: #0C120C;
     text-decoration: none;
+    font-family: "Baloo 2", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #0C120C;
@@ -48,13 +65,28 @@ header{
 }
 .msg {
     background-color: #C7E8F3;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: #FE0B24;
+    font-family: "Oswald", sans-serif, Arial;
+}
+.msg p {
+    color: #0C120C;
+    font-size: .8em;
+    font-family: "Oswald", sans-serif, Arial;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #0C120C;
     color: #FE0B24;
+    padding: 25px 50px;
+    margin-top: 200px;
 } 
 footer p {
     font-size: 1.2em;
+    font-family: "Oswald", sans-serif, Arial;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -63,28 +95,36 @@ footer a {
     color: #FE0B24;
     text-decoration: none;
 }
+footer .social img {
+    padding-top: 15px;
+}
 footer a:hover {
     background-color: #C7E8F3;
     color: #0C120C;
 }
 .home-title {
     color: #FE0B24;
+    font-family: "Oswald", sans-serif, Arial;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h2 {
     color: #FE0B24;
+    margin: 0;
 }
 h4{
     color: #FE0B24;
-}
-.msg h2 {
-    color: #FE0B24;
-}
-.msg p {
-    color: #0C120C;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
 }
