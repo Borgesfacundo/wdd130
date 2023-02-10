@@ -13,9 +13,6 @@ body {
 #logo_link {
     padding-top: 5px;
 }
-nav {
-    background-color: #FE0B24;
-}
 nav a {
     text-align: center;
     color: #0C120C;
@@ -50,7 +47,7 @@ header{
     background-color: #C7E8F3;
 }
 .book, .join {
-    background-color: #C7E8F3;
+    background-color: #FE0B24;
     color: #0C120C;
     text-decoration: none;
     font-family: "Baloo 2", Helvetica, sans-serif;
