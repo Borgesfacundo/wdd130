@@ -70,6 +70,7 @@ header{
     background-color: #C7E8F3;
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: 0.7;
 }
 .book, .join {
     background-color: #FE0B24;
