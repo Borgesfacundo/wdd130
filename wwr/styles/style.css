@@ -189,6 +189,7 @@ margin: 200px 0;
 }
 
 
+/* Page 2 | Blog Rafting */
 
 #hero-2 {
     display: grid;
@@ -300,7 +301,7 @@ margin: 200px 0;
         transform: scale(1.1);
     }
 
-    
+    /* End of Page 2 | Blog Rafting */
 
 
 @media screen and (max-width: 900px) {
