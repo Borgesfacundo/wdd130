@@ -190,7 +190,15 @@ margin: 200px 0;
 
 
 /* Page 2 | Blog Rafting */
-
+.page-2 {
+font-size: 22px;
+}
+h2 {
+    font-size: 31px;
+}
+h1 {
+    font-size: 31px;
+}
 #hero-2 {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -285,9 +293,9 @@ margin: 200px 0;
         padding-right: 40px;
     }
     .home-2 h2 {
-        font-size: 1.4em;
         text-align: center;
         font-family: "Oswald", sans-serif, Arial;
+        padding-top: 20px;
     }
     .card-img-2 {
         width: 550px;
@@ -300,6 +308,7 @@ margin: 200px 0;
         opacity: .6;
         transform: scale(1.1);
     }
+
 
     /* End of Page 2 | Blog Rafting */
 
