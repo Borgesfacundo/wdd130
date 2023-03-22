@@ -12,7 +12,7 @@ body {
     background-color: #D3D3D3;
     font-family: 'Merienda', Arial, sans-serif;
 }
-header{
+header {
     background-color: #0B090A;
     display: grid;
     grid-template-columns: 150px auto;
@@ -203,6 +203,117 @@ footer a:hover {
 .social a:hover {
 background-color: #BA181B;
 }
+
+
+/* Page 2 | Need to Know Personal Site */
+
+.hero-2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.hero-box-2 {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    opacity: 0.6;
+
+}
+.hero-img-2 {
+    width: 100%;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    z-index: 1;
+}
+#hero-title {
+    color: #BA181B;
+    font-size: 34px;
+    margin-top: 110px;
+}
+#hero-msg {
+    color: #0B090A;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: -300px;
+    text-align: center;
+}
+.title {
+    color: #BA181B;
+    font-size: 40px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 110px;
+}
+.prg {
+    font-size: 28px;
+    color: #0B090A;
+    margin-top: 200px;
+    text-align: center;
+}
+#main-2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.read-img {
+    margin-top: 35px;
+    height: 600px;
+    grid-column: 2/5;
+    grid-row: 1/4;
+    align-self: center;
+    justify-self: center;
+}
+.read-text {
+    margin-top: 35px;
+    background-color: #0B090A;
+    color: #D3D3D3;
+    height: 600px;
+    padding: 10px 10px 10px 10px;
+    grid-column: 6/9;  
+    grid-row: 1/4;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.want-text {
+    margin-top: 35px;
+    background-color: #0B090A;
+    color: #D3D3D3;
+    height: 700px;
+    padding: 10px 10px 10px 10px;
+    grid-column: 2/5;
+    grid-row: 6/9;
+    align-self: center;  
+    justify-self: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.want-img {
+    margin-top: 35px;
+    height: 700px;
+    grid-column: 6/9;
+    grid-row: 6/9;
+    align-self: center;  
+    justify-self: center;
+}
+.img-2, .img-3 {
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 2px solid #6f7364;
+}
+.img-2 {
+    margin-top: 150px;
+
+}
+.img-3 {
+    margin-top: 50px;
+}
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
