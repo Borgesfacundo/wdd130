@@ -220,11 +220,6 @@ background-color: #BA181B;
 .hero-img-2 {
     width: 100%;
 }
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    z-index: 1;
-}
 #hero-title {
     color: #BA181B;
     font-size: 34px;
@@ -236,6 +231,7 @@ background-color: #BA181B;
     grid-row: 2/3;
     margin-top: -300px;
     text-align: center;
+    z-index: 1;
 }
 .title {
     color: #BA181B;
@@ -255,7 +251,7 @@ background-color: #BA181B;
     grid-template-columns: repeat(10, 1fr);
 }
 .read-img {
-    margin-top: 35px;
+    margin-top: 75px;
     height: 600px;
     grid-column: 2/5;
     grid-row: 1/4;
@@ -263,7 +259,7 @@ background-color: #BA181B;
     justify-self: center;
 }
 .read-text {
-    margin-top: 35px;
+    margin-top: 75px;
     background-color: #0B090A;
     color: #D3D3D3;
     height: 600px;
@@ -276,7 +272,7 @@ background-color: #BA181B;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .want-text {
-    margin-top: 35px;
+    margin-top: 75px;
     background-color: #0B090A;
     color: #D3D3D3;
     height: 700px;
@@ -288,8 +284,11 @@ background-color: #BA181B;
     text-align: center;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.want-text h1, .read-text h1 {
+    color: #BA181B;
+}
 .want-img {
-    margin-top: 35px;
+    margin-top: 75px;
     height: 700px;
     grid-column: 6/9;
     grid-row: 6/9;
