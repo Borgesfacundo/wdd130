@@ -149,8 +149,8 @@ nav a:hover {
     transform: rotateY(180deg);
     padding-right: 30px;
     padding-left: 30px;
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
   p, h4 {
     font-family: 'Prompt', Helvetica, sans-serif;
