@@ -303,10 +303,15 @@ background-color: #BA181B;
 }
 .img-2 {
     margin-top: 150px;
-
+    transition: transform .5s;
+    }
+.img-2:hover, .img-3:hover  {
+opacity: .8;
+transform: scale(1.1);
 }
 .img-3 {
     margin-top: 50px;
+    transition: transform .5s;
 }
 
 /* Page 3 | Help | Personal Site */
@@ -391,7 +396,7 @@ background-color: #BA181B;
 
 
 @media screen and (max-width: 900px) {
-    header, .hero, .main-page, .home-grid, .hero-2, #main-2 {
+    header, .hero, .main-page, .home-grid, .hero-2, #main-2, .home-grid-3, .hero-title-t {
         display: block;
         height: auto;
     }
@@ -415,7 +420,7 @@ background-color: #BA181B;
         font-size: 25px;
         color: #6f7364;
     }
-    .flip-card-1, .flip-card-2, .flip-card-3, .read-img, .read-text, .want-img, .want-text,  { 
+    .flip-card-1, .flip-card-2, .flip-card-3, .read-img, .read-text, .want-img, .want-text, .copyright-text, .flip-box-1, .flip-box-2  { 
         margin: 50px auto;
         width: 60%;
     }
