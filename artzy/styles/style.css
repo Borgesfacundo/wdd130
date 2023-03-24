@@ -147,7 +147,7 @@ nav a:hover {
 	color: #D3D3D3;
 	font-size: 25px;
 	transform: rotateY(180deg);
-	padding: 0 30px
+	padding: 0 30px;
 	display: flex;
 	align-items: center;
 }
