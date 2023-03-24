@@ -314,7 +314,7 @@ background-color: #BA181B;
 
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    header, .hero, .main-page, .home-grid, .hero-2, #main-2 {
         display: block;
         height: auto;
     }
@@ -325,20 +325,20 @@ background-color: #BA181B;
         display: block;
         padding: 15px;
     }
-    #hero {
+    .hero, .hero-2 {
         margin-top: 0;
     }
     #hero-msg {
         margin-top: 0;
     }
-    #hero-msg h4 {
+    #hero-msg h4, #hero-msg p {
         display: none;
     }
-    .home-title {
+    .home-title, .title {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .flip-card-1, .flip-card-2, .flip-card-3, .read-img, .read-text, .want-img, .want-text,  { 
         margin: 50px auto;
         width: 60%;
     }
