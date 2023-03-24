@@ -142,15 +142,14 @@ nav a:hover {
     color: black;
   }
   .flip-card-back {
-    box-sizing: border-box;
-    background-color: #0B090A;
-    color: #D3D3D3;
-    font-size: 25px;
-    transform: rotateY(180deg);
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+	box-sizing: border-box;
+	background-color: #0B090A;
+	color: #D3D3D3;
+	font-size: 25px;
+	transform: rotateY(180deg);
+	padding: 0 30px
+	display: flex;
+	align-items: center;
 }
   p, h4 {
     font-family: 'Prompt', Helvetica, sans-serif;
