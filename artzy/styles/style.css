@@ -315,7 +315,10 @@ transform: scale(1.1);
 }
 
 /* Page 3 | Help | Personal Site */
-
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 .hero-title-t {
     grid-column: 2/3;
     grid-row: 1/2;
